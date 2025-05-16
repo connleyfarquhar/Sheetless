@@ -16,7 +16,7 @@ In my spare time, I plan to continue developing this project, implementing featu
 - A clean and professional User Interface that is simple for all users.
 - A Traveller Log system that displays content that was recently uploaded into the database.
           
-*Planned Features:*
+*Potential Upcoming Features:*
 - Search System & Fault Detection.
 - Production Traveller Revision Functionality.
 - Exporting Functionality to external programs for further logistical logging and sorting.
