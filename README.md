@@ -20,6 +20,6 @@ In my spare time, I plan to continue developing this project, implementing featu
 - Initials Slider for Auto-fill in a Traveller Template.
           
 *Potential Upcoming Features:*
-- Search System & Fault Detection.
+- Search System.
 - Production Traveller Revision Functionality.
 - Light & Dark Mode Functionality with Slider, saved into the browser cookies.
