@@ -79,7 +79,7 @@ class validateConnection {
         $this->db = $db;
     }
     
-    // Function is used to check if the login input meets the same credentials as the login table in the database.
+    // Function is used to check if the login input meets the same credentials as the login table in the database. 
     public function login($username, $password) {
         $stmt = $this->db->prepare("SELECT userPassword, accountID FROM sheetlesslogin WHERE userName = ?");
         $stmt->bind_param("s", $username);
