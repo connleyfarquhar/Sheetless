@@ -210,7 +210,7 @@ class SignupController {
                     <button class="submit-button" type="submit">Create Account</button>
                 </form>
 
-                <p class="signup-link">Already have an account? <a href="http://localhost/DTS/index.php">Go to Login</a></p>
+                <p class="signup-link">Already have an account? <a href="http://localhost/Sheetless/index.php">Go to Login</a></p>
             </div>
 
             <!-- Footer displayed on all pages on the system. -->

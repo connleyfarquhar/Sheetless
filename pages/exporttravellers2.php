@@ -1,4 +1,5 @@
 <?php
+// Using PHPSpreadsheet within the project in order to export the data into excel.
 require __DIR__ . '/../vendor/autoload.php'; // PhpSpreadsheet autoloader
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
