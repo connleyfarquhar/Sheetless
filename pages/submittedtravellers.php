@@ -186,7 +186,7 @@ $travelerData2Output = $conn->query($sql2);
                     'step_40' => 'Step 40'
                 ];
                 
-                // Using a foreach statement to output each process of the traveller sheet onto SubmittedTravellers.PHP.
+                // Using a foreach statement to output each process of the traveller sheet onto SubmittedTravellers.PHP. 
                 foreach ($travellerProcess as $column => $label) {
                     $status = !empty($row[$column]) ? 'Completed: ' . $row[$column] : 'Not completed';
                     print '<li class="product-item">';
