@@ -94,6 +94,13 @@ $travelerData2Output = $conn->query($sql2);
 <a class="exportbutton" href="exporttravellers.php"><button>Export Traveller Group 1 Data</button></a>
 <a class="exportbutton" href="exporttravellers2.php"><button>Export Traveller Group 2 Data</button></a>
 
+<div class="search-container">
+    <form method="GET" action="">
+        <input type="text" name="search_id" placeholder="Search by Traveller ID..">
+        <button type="submit">Search</button>
+    </form>
+</div>
+
 <div class="submitted-container">
     <div class="submitted-box">
         <h1>Submitted Travellers Group 1</h1>
