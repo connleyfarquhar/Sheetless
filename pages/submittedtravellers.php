@@ -43,6 +43,15 @@ if (isset($_GET['start']) && isset($_GET['end'])) {
     $where = " WHERE date_submitted BETWEEN '$startDate 00:00:00' AND '$endDate 23:59:59'";
 }
 
+if (isset($_GET['search_id']) && !empty($_GET['search_id'])) {
+    $searchId = $conn->real_escape_string($_GET['search_id']);
+    if (empty($where)) {
+        $where = " WHERE id = '$searchId'";
+    } else {
+        $where .= " AND id = '$searchId'";
+    }
+}
+
 // Selecting all from traveler_data table, within the start and end date range it then is stored within the output variable for further use.
 $sql = "SELECT * FROM traveler_data" . $where . " ORDER BY date_submitted DESC";
 $travelerDataOutput = $conn->query($sql);
@@ -96,8 +105,16 @@ $travelerData2Output = $conn->query($sql2);
 
 <div class="search-container">
     <form method="GET" action="">
-        <input type="text" name="search_id" placeholder="Search by Traveller ID..">
+        <input type="text" name="search_id" placeholder="Search by Traveller ID.." value="<?php echo isset($_GET['search_id']) ? htmlspecialchars($_GET['search_id']) : ''; ?>">
         <button type="submit">Search</button>
+        <?php if(isset($_GET['search_id']) || isset($_GET['start']) || isset($_GET['end'])): ?>
+            <a href="submittedtravellers.php" class="clear-search">Clear Search</a>
+        <?php endif; ?>
+        
+        <?php if(isset($_GET['start']) && isset($_GET['end'])): ?>
+            <input type="hidden" name="start" value="<?php echo htmlspecialchars($_GET['start']); ?>">
+            <input type="hidden" name="end" value="<?php echo htmlspecialchars($_GET['end']); ?>">
+        <?php endif; ?>
     </form>
 </div>
 
@@ -152,7 +169,15 @@ $travelerData2Output = $conn->query($sql2);
                 print '</ul>';
                 print '</div>';
             }
+
+        } else {
+            if (isset($_GET['search_id']) && !empty($_GET['search_id'])) {
+                echo '<p class="no-results">No Traveller Group 1 records found with ID: ' . htmlspecialchars($_GET['search_id']) . '</p>';
+            } else {
+                echo '<p class="no-results">No Traveller Group 1 records found.</p>';
+            }
         } 
+        
         ?>
         
         <h1>Submitted Travellers Group 2</h1>
@@ -204,6 +229,13 @@ $travelerData2Output = $conn->query($sql2);
                 
                 print '</ul>';
                 print '</div>';
+            }
+
+        } else {
+            if (isset($_GET['search_id']) && !empty($_GET['search_id'])) {
+                echo '<p class="no-results">No Traveller Group 2 records found with ID: ' . htmlspecialchars($_GET['search_id']) . '</p>';
+            } else {
+                echo '<p class="no-results">No Traveller Group 2 records found.</p>';
             }
         } 
         
