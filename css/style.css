@@ -656,9 +656,13 @@ nav ul li:not(:last-child)::after {
   .exportbutton button:hover {
     background-color: #2e5bb4; /* Darker shade for hover effect */
   }
-  
-  
-  
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 
   /* Simple Responsiveness to take in consideration to smaller screened desktop devices. */
 @media (max-width: 1024px) {

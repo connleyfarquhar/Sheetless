@@ -27,8 +27,8 @@ $login -> validateLogin();
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
-
-    <title>Revisions</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Traveller Revisions</title>
 </head>
 
 <!-- Header displayed on all pages of the system excluding index.php where the login portal is. Header contains page navigation links and displays which account is logged in. -->

@@ -170,7 +170,8 @@ class LoginController {
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
-            <title>SheetLess - System Access Portal</title>
+            <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+            <title>System Access Portal</title>
         </head>
         <body>
             <div class="login-container">

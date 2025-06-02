@@ -185,7 +185,7 @@ class pageContent {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
-
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <title>Traveller #2</title>
 </head>
 <body>
