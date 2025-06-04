@@ -21,5 +21,4 @@ In my spare time, I plan to continue developing this project, implementing featu
           
 *Potential Upcoming Features:*
 - Search Functionality.
-- Production Traveller Revision Functionality.
 - Light & Dark Mode Functionality with Slider, saved into the browser cookies.
