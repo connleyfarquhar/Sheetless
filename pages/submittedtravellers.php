@@ -105,11 +105,9 @@ $travelerData2Output = $conn->query($sql2);
 
 <div class="search-container">
     <form method="GET" action="">
-        <input type="text" name="search_id" placeholder="Search by Traveller ID.." value="<?php echo isset($_GET['search_id']) ? htmlspecialchars($_GET['search_id']) : ''; ?>">
+        <input type="text" name="search_id" placeholder="Search by Traveller ID" value="<?php echo isset($_GET['search_id']) ? htmlspecialchars($_GET['search_id']) : ''; ?>">
         <button type="submit">Search</button>
-        <?php if(isset($_GET['search_id']) || isset($_GET['start']) || isset($_GET['end'])): ?>
-            <a href="submittedtravellers.php" class="clear-search">Clear Search</a>
-        <?php endif; ?>
+        <button type="reset" onclick="window.location.href='submittedtravellers.php'">Reset</button>
         
         <?php if(isset($_GET['start']) && isset($_GET['end'])): ?>
             <input type="hidden" name="start" value="<?php echo htmlspecialchars($_GET['start']); ?>">
