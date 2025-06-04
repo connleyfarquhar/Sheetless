@@ -1,5 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/connleyfarquhar/SheetLess/main/Logo%20Concepts/DTS.png)                  
-###### HND Software Development Graded Unit 2 Project | Graded Unit Module
+###### HND Software Development Project | Graded Unit Module
 ##### A Digital Production Traveller Management System     
       
 This Repository contains my project for the Graded Unit at Dundee & Angus College to work towards my        
