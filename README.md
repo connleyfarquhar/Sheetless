@@ -20,5 +20,3 @@ In my spare time, I plan to continue developing this project, implementing featu
 - Support for a Sign-Up Functionality.
 - Initials Slider for Auto-fill in a Traveller Template.
           
-*Potential Upcoming Features:*
-- Light & Dark Mode Functionality with Slider, saved into the browser cookies.
