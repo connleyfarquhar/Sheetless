@@ -253,7 +253,7 @@ $travelerData2Output = $conn->query($sql2);
                         <p class="footer-copyright">© 2025 Connley Farquhar. All Rights Reserved.</p>
                     </div>
 
-                    <!-- Various footer links to Social Media Profiles. -->
+                    <!-- Various footer links to Social Media Profiles visible across all system footers. -->
                     <div class="footer-logo">
                         <img src="../images/DTS.png" alt="Logo">
                         <div class="social-icons">
