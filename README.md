@@ -1,5 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/connleyfarquhar/SheetLess/main/Logo%20Concepts/DTS.png)                  
-###### HND Software Development Graded Unit 2 Project | Graded Unit Module
+###### HND Software Development Project | Graded Unit Module
 ##### A Digital Production Traveller Management System     
       
 This Repository contains my project for the Graded Unit at Dundee & Angus College to work towards my        
@@ -15,10 +15,8 @@ In my spare time, I plan to continue developing this project, implementing featu
 - A selection of Production Travellers from which an end user can select.
 - A clean and professional User Interface that is simple for all users.
 - A Traveller Log system that displays content that was recently uploaded into the database.
+- Search Functionality in submitted travellers page. 
 - Exporting Functionality to external programs for further logistical logging and sorting.
 - Support for a Sign-Up Functionality.
 - Initials Slider for Auto-fill in a Traveller Template.
           
-*Potential Upcoming Features:*
-- Search Functionality.
-- Light & Dark Mode Functionality with Slider, saved into the browser cookies.
